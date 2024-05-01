@@ -1,6 +1,6 @@
 import Link from "next/link";
 import FooterTwo from "@/components/ui/footer2";
-import { Button } from "@/components/ui/button";
+
 
 export default function ResumePage() {
   return (

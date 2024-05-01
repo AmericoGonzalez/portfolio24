@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { cookies } from "next/headers";
-import { redirect } from "next/navigation";
+
 import Footer from "@/components/ui/footer";
-import DownloadButton from '@/components/ui/downloadButton';
+
 
 
 export default function ProyectsPage() {

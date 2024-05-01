@@ -1,8 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import mypic1 from "/public/mypic01.png";
-import { cookies } from "next/headers";
-import { redirect } from "next/navigation";
 import Footer from "@/components/ui/footer";
 
 
