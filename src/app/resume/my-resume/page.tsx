@@ -24,7 +24,7 @@ export default function ResumePage() {
         <div className="flex items-stretch justify-center space-x-72">
           <div>
             <h1 className="font-bold pr-10 mt-1 text-decoration: underline">Summary of Resume</h1>
-          </div>
+            </div>
           <div className="bg-green-300 p-2"><a href='/public/Resume.pdf' download>Download full Resume</a></div>
         </div>
   
