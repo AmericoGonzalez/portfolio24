@@ -22,14 +22,14 @@ export default function AboutMePage() {
           <span className="text-xl cursor-pointer">Projects</span>
         </Link>
         <Link href="/aboutme/about-me">
-          <span className="text-xl cursor-pointer">About me</span>
+          <span className="text-xl cursor-pointer">About</span>
         </Link>
         </div>
 
     <div className="flex items-center justify-center space-x-6 mr-10 ml-10">
       
       <div className="bg-gray-100 p-8 rounded-xl">
-        <span className="text-xl">Beyond Work</span>
+        <h1 className="font-bold">Beyond Work</h1>
         <br/>
         <p>Chilean Canadian I speak Spanish and English</p>
         <p>My first academic formation was in History and Geography and social science in general 

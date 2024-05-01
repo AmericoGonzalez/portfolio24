@@ -52,12 +52,10 @@ export default async function HomePage() {
       
         </div>
 
-        <Link href="/login/log-in">
-          <Button className="mt-10">Log in</Button>
-        </Link> 
+        
         <br/>
         <Link href="/contact/contact-me">
-          <Button className="mt-10 bg-green-300 text-sky-600 shadow-xl">Contact me by email</Button>
+          <Button className="mt-10 border-green-400 border-2 bg-green-300 text-sky-600 shadow-xl rounded">Contact me by email</Button>
         </Link> 
       
         <Footer />    

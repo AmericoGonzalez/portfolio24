@@ -2,6 +2,7 @@ import Link from "next/link";
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 import Footer from "@/components/ui/footer";
+import DownloadButton from '@/components/ui/downloadButton';
 
 
 export default function ProyectsPage() {
@@ -21,7 +22,7 @@ export default function ProyectsPage() {
           <span className="text-xl cursor-pointer">Projects</span>
         </Link>
         <Link href="/aboutme/about-me">
-          <span className="text-xl cursor-pointer">About me</span>
+          <span className="text-xl cursor-pointer">About</span>
         </Link>
         </div>
 
