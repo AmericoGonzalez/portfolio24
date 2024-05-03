@@ -2,13 +2,20 @@ import Link from "next/link";
 import FooterTwo from "@/components/ui/footer2";
 
 
+
+
 export default function ResumePage() {
   return (
+
+  
+
     <div> 
       <div className="flex justify-center space-x-6 mb-6 mt-2 p-6 md:shadow-md">
+        
         <Link href="/">
           <span className="text-xl cursor-pointer">Home</span>
         </Link>
+        
         <Link href="/resume/my-resume">
           <span className="text-xl cursor-pointer">Resume</span>
         </Link>
@@ -25,9 +32,18 @@ export default function ResumePage() {
           <div>
             <h1 className="font-bold pr-10 mt-1 text-decoration: underline">Summary of Resume</h1>
             </div>
-          <div className="bg-green-300 p-2"><a href='/public/Resume.pdf' download>Download full Resume</a></div>
-        </div>
+            
+
+              <a href="Resume.pdf" download className="cursor-pointer block rounded p-3 pr-6 bg-blue-200 border-0">
+          <span className="ml-4">Download Full Resume</span>
+        </a>
+       
   
+
+
+        </div>
+
+
         <br/>
         <h1 className="font-bold">Americo Gonzalez</h1>
         <h2>developer.agonzalez@gmail.com | 236 882 5632</h2>
