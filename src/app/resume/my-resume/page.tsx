@@ -34,7 +34,7 @@ export default function ResumePage() {
             </div>
             
 
-              <a href="portfolio24/public/Resume.pdf" download className="cursor-pointer block rounded p-3 pr-6 bg-blue-200 border-0">
+              <a href="https://portfolio24-taupe.vercel.app/Resume.pdf" download className="cursor-pointer block rounded p-3 pr-6 bg-blue-200 border-0">
           <span className="ml-4">Download Full Resume</span>
         </a>
        
