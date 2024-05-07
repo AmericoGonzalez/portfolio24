@@ -1,7 +1,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import mypic1 from "/public/mypic01.png";
+import mypic1 from "/public/mypic00.png";
 import { Button } from "@/components/ui/button";
 import Footer from "@/components/ui/footer";
 
@@ -29,7 +29,7 @@ export default async function HomePage() {
         </Link>
       </div>
 
-     
+      
       <div className="flex items-center justify-center space-x-6">
         
         <div className="rounded-full overflow-hidden w-48 h-48 mr-5 bg-green-300 shadow-xl outline-solid">

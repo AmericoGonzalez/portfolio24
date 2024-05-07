@@ -4,13 +4,21 @@ import Link from "next/link";
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import Footer from "@/components/ui/footer";
+import { Button } from "@/components/ui/button";
 
 
 
 export default function ContactForm() {
   const [state, handleSubmit] = useForm("myyrolyr");
   if (state.succeeded) {
-      return <p>Thanks for Contacting me I will respond ASAP!</p>;
+      return <div className="flex justify-center space-x-6 mb-16 mt-2 p-6 md:shadow-md">Thanks for Contacting me I will respond ASAP!
+       <br/>
+       <Link href="/">
+          <Button className="border-green-400 border-2 bg-green-300 text-sky-600 shadow-xl rounded">HOME</Button>
+        </Link>
+      </div>;
+    
+     
   }
 
 
@@ -19,7 +27,7 @@ export default function ContactForm() {
 <div className="flex justify-center space-x-6 mb-16 mt-2 p-6 md:shadow-md">
         <Link href="/">
           <span className="text-xl cursor-pointer">Home</span>
-        </Link>
+        </Link> 
         <Link href="/resume/my-resume">
           <span className="text-xl cursor-pointer">Resume</span>
         </Link>

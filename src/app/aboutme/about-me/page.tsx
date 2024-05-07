@@ -43,10 +43,10 @@ export default function AboutMePage() {
       <div className="mr-16">
         <Image
             src={mypic1}
-            layout="intrinsic"
+            layout="responsive"
             alt="my picture 1"
-            width={300}
-            height={400}
+            width={50}
+            height={100}
             
           /> 
       </div>

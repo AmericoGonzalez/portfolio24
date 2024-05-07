@@ -7,8 +7,6 @@ import FooterTwo from "@/components/ui/footer2";
 export default function ResumePage() {
   return (
 
-  
-
     <div> 
       <div className="flex justify-center space-x-6 mb-6 mt-2 p-6 md:shadow-md">
         
@@ -59,8 +57,8 @@ export default function ResumePage() {
               Tailwind.css, JavaScript, React, Next.js, Node.js, GitHub, and Figma.
             </p>
           </div>
-        
-          <div className="w-1/2">
+            
+          <div className="w-1/2 ml-2">
             <h3 className="font-bold">Soft Skills</h3>
             <p>Teamwork, problem solving, adaptability, time management, creativity</p>
           </div>
