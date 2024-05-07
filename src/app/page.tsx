@@ -16,16 +16,16 @@ export default async function HomePage() {
       
       <div className="flex justify-center space-x-6 mb-16 mt-2 p-6 md:shadow-md">
         <Link href="/">
-          <span className="text-xl cursor-pointer">Home</span>
+          <span className="text-xl cursor-pointer hover:text-sky-600">Home</span>
         </Link>
         <Link href="/resume/my-resume">
-          <span className="text-xl cursor-pointer">Resume</span>
+          <span className="text-xl cursor-pointer hover:text-sky-600">Resume</span>
         </Link>
         <Link href="/projects/my-projects">
-          <span className="text-xl cursor-pointer">Projects</span>
+          <span className="text-xl cursor-pointer hover:text-sky-600">Projects</span>
         </Link>
         <Link href="/aboutme/about-me">
-          <span className="text-xl cursor-pointer">About</span>
+          <span className="text-xl cursor- hover:text-sky-600">About</span>
         </Link>
       </div>
 
@@ -55,7 +55,7 @@ export default async function HomePage() {
         
         <br/>
         <Link href="/contact/contact-me">
-          <Button className="mt-10 border-green-400 border-2 bg-green-300 text-sky-600 shadow-xl rounded">Contact me by email</Button>
+          <Button className="mt-10 text-xl border-green-400 border-2 bg-green-300 text-sky-600 shadow-xl rounded hover:bg-gray-200">Contact me</Button>
         </Link> 
       
         <Footer />    

@@ -9,24 +9,25 @@ export default function AboutMePage() {
 
   return (
   <div className="text-center"> 
-        <div className="flex justify-center space-x-6 mb-16 mt-2 p-6 md:shadow-md">
+
+         <div className="flex justify-center space-x-6 mb-16 mt-2 p-6 md:shadow-md">
         <Link href="/">
-          <span className="text-xl cursor-pointer">Home</span>
+          <span className="text-xl cursor-pointer hover:text-sky-600">Home</span>
         </Link>
         <Link href="/resume/my-resume">
-          <span className="text-xl cursor-pointer">Resume</span>
+          <span className="text-xl cursor-pointer hover:text-sky-600">Resume</span>
         </Link>
         <Link href="/projects/my-projects">
-          <span className="text-xl cursor-pointer">Projects</span>
+          <span className="text-xl cursor-pointer hover:text-sky-600">Projects</span>
         </Link>
         <Link href="/aboutme/about-me">
-          <span className="text-xl cursor-pointer">About</span>
+          <span className="text-xl cursor- hover:text-sky-600">About</span>
         </Link>
-        </div>
+      </div>
 
-    <div className="flex items-center justify-center space-x-6 mr-10 ml-10">
+    <div className="flex">
       
-      <div className="bg-gray-100 p-8 rounded-xl">
+      <div className="bg-gray-100 p-8 ml-16 rounded-xl w-2/3">
         <h1 className="font-bold">Beyond Work</h1>
         <br/>
         <p>Chilean Canadian I speak Spanish and English</p>
@@ -40,7 +41,7 @@ export default function AboutMePage() {
         culture, new technology, and visual arts.</p>
       </div>
 
-      <div className="mr-16">
+      <div className="w-1/3 mr-16 ml-4">
         <Image
             src={mypic1}
             layout="responsive"

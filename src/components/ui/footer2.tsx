@@ -1,8 +1,7 @@
 import { FaReact } from "react-icons/fa6";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiTailwindcss } from "react-icons/si";
-import { SiPrisma } from "react-icons/si";
-import { SiSqlite } from "react-icons/si";
+
 import { SiVercel } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
 
@@ -17,8 +16,7 @@ import { SiTypescript } from "react-icons/si";
               <TbBrandNextjs size={24} title="Nextjs" />
               <SiTypescript size={23} />
               <SiTailwindcss size={24} title="Tailwind CSS" />
-              <SiPrisma size={24} title="Prisma" />
-              <SiSqlite size={23} />
+              
               <SiVercel size={24} title="Vercel" />
              
             </div>
