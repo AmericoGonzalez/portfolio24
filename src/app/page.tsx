@@ -32,24 +32,26 @@ export default async function HomePage() {
       
       <div className="flex items-center justify-center space-x-6">
         
-        <div className="rounded-full overflow-hidden w-48 h-48 mr-5 bg-green-300 shadow-xl outline-solid">
+        <div className="bg-gray-200 flex items-center justify-center space-x-2 rounded-xl">
+        
+        <div className="rounded-full overflow-hidden w-48 h-48 mr-5 ml-5 mt-5 mb-5 bg-green-300 shadow-xl outline-solid">
           <Image
             src={mypic1}
             layout="intrinsic"
             alt="my picture 1"
             width={300}
             height={400}
-            
+          
           /> 
         </div>
         
-          <div className="flex flex-col items-center justify-center bg-green-300 p-8 rounded-xl shadow-xl ">
-          <div><p className="text-l">Hello I am</p></div>
-          <div><p className="text-xl">A. Gonzalez</p></div>
-          <div><p className="text-l">Web Developer</p></div>
+          <div className="flex flex-col items-center justify-center pl-3 pr-7 mr-10">
+          <div><p className="text-xl">Hello I am</p></div>
+          <div><p className="text-2xl font-bold text-green-500">A. Gonzalez</p></div>
+          <div><p className="text-xl">Web Developer</p></div>
         
           </div>  
-      
+          </div>
         </div>
 
         

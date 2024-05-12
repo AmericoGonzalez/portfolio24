@@ -41,7 +41,7 @@ export default function ResumePage() {
 
 
         <br/>
-        <h1 className="font-bold">Americo Gonzalez</h1>
+        <h1 className="font-bold text-xl">Americo Gonzalez</h1>
         <h2>developer.agonzalez@gmail.com | 236 882 5632</h2>
         <br/>
   
