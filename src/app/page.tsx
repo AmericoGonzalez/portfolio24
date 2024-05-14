@@ -1,14 +1,17 @@
 
+
+
 import Image from "next/image";
 import Link from "next/link";
 import mypic1 from "/public/mypic00.png";
 import { Button } from "@/components/ui/button";
 import Footer from "@/components/ui/footer";
+import { useState } from "react";
 
 
 export default async function HomePage() {
 
-
+  
 
   return (
     <div className="text-center">
@@ -34,7 +37,7 @@ export default async function HomePage() {
         
         <div className="bg-gray-200 flex items-center justify-center space-x-2 rounded-xl">
         
-        <div className="rounded-full overflow-hidden w-48 h-48 mr-5 ml-5 mt-5 mb-5 bg-green-300 shadow-xl outline-solid">
+        <div className="rounded-full overflow-hidden w-48 h-48 mr-5 ml-5 mt-5 mb-5 bg-green-300 hover:bg-sky-600 shadow-xl outline-solid">
           <Image
             src={mypic1}
             layout="intrinsic"
@@ -47,7 +50,7 @@ export default async function HomePage() {
         
           <div className="flex flex-col items-center justify-center pl-3 pr-7 mr-10">
           <div><p className="text-xl">Hello I am</p></div>
-          <div><p className="text-2xl font-bold text-green-500">A. Gonzalez</p></div>
+          <div><p className="text-2xl font-bold text-sky-600">A. Gonzalez</p></div>
           <div><p className="text-xl">Web Developer</p></div>
         
           </div>  
