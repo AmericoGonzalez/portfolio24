@@ -11,7 +11,7 @@ import { SiTypescript } from "react-icons/si";
         return (
           <footer className="fixed bottom-0 left-0 w-full bg-gray-100 py-8 mt-6">
             <div className="flex justify-center space-x-4 p-3 mb-2">
-              <p>This website:</p>
+              <p>This App uses:</p>
               <FaReact size={24} title="React" />
               <TbBrandNextjs size={24} title="Nextjs" />
               <SiTypescript size={23} />

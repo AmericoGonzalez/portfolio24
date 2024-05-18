@@ -1,5 +1,6 @@
-import Link from "next/link";
+
 import FooterTwo from "@/components/ui/footer2";
+import NavLink from "@/components/ui/nav-links";
 
 
 
@@ -8,22 +9,9 @@ export default function ResumePage() {
   return (
 
     <div> 
-         <div className="flex justify-center space-x-6 mb-16 mt-2 p-6 md:shadow-md">
-        <Link href="/">
-          <span className="text-xl cursor-pointer hover:text-sky-600">Home</span>
-        </Link>
-        <Link href="/resume/my-resume">
-          <span className="text-xl cursor-pointer hover:text-sky-600">Resume</span>
-        </Link>
-        <Link href="/projects/my-projects">
-          <span className="text-xl cursor-pointer hover:text-sky-600">Projects</span>
-        </Link>
-        <Link href="/aboutme/about-me">
-          <span className="text-xl cursor- hover:text-sky-600">About</span>
-        </Link>
-      </div>
+        <NavLink /> 
       
-      <div className="mx-10 mb-10 bg-gray-100 p-8 rounded-xl">
+      <div className="mx-10 mb-10 bg-gray-100 p-8 rounded-xl border-sky-200 border-2">
         <div className="flex items-stretch justify-center space-x-72">
           <div>
             <h1 className="font-bold pr-10 mt-1 text-decoration: underline">Summary of Resume</h1>

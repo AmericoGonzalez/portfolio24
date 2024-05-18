@@ -1,11 +1,12 @@
 "use client";
 
-import Link from "next/link";
+import Link from 'next/link';
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import Footer from "@/components/ui/footer";
 import { Button } from "@/components/ui/button";
 
+import NavLink from "@/components/ui/nav-links";
 
 
 export default function ContactForm() {
@@ -24,22 +25,9 @@ export default function ContactForm() {
 
   return (
 <div>
-<div className="flex justify-center space-x-6 mb-16 mt-2 p-6 md:shadow-md">
-        <Link href="/">
-          <span className="text-xl cursor-pointer hover:text-sky-600">Home</span>
-        </Link> 
-        <Link href="/resume/my-resume">
-          <span className="text-xl cursor-pointer hover:text-sky-600">Resume</span>
-        </Link>
-        <Link href="/projects/my-projects">
-          <span className="text-xl cursor-pointer hover:text-sky-600 ">Projects</span>
-        </Link>
-        <Link href="/aboutme/about-me">
-          <span className="text-xl cursor-pointer hover:text-sky-600">About</span>
-        </Link>
-      </div>
+      <NavLink /> 
 
-      <div className="max-w-md mx-auto p-6 bg-gray-100 rounded-lg shadow-md">
+      <div className="max-w-md mx-auto p-6 bg-gray-100 border-sky-200 border-2 rounded-lg shadow-md">
       <form action="https://formspree.io/f/myyrolyr" method="POST" onSubmit={handleSubmit}>
         <label htmlFor="email" className="block text-gray-700 font-semibold mb-2">Email Address</label>
         <input

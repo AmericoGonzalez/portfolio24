@@ -2,44 +2,33 @@
 
 
 import Image from "next/image";
-import Link from "next/link";
-import mypic1 from "/public/mypic00.png";
+
+import NavLink from "@/components/ui/nav-links";
 import { Button } from "@/components/ui/button";
 import Footer from "@/components/ui/footer";
-import { useState } from "react";
+import Link from "next/link";
+
 
 
 export default async function HomePage() {
 
-  
 
   return (
     <div className="text-center">
      
       
-      <div className="flex justify-center space-x-6 mb-16 mt-2 p-6 md:shadow-md">
-        <Link href="/">
-          <span className="text-xl cursor-pointer hover:text-sky-600">Home</span>
-        </Link>
-        <Link href="/resume/my-resume">
-          <span className="text-xl cursor-pointer hover:text-sky-600">Resume</span>
-        </Link>
-        <Link href="/projects/my-projects">
-          <span className="text-xl cursor-pointer hover:text-sky-600">Projects</span>
-        </Link>
-        <Link href="/aboutme/about-me">
-          <span className="text-xl cursor- hover:text-sky-600">About</span>
-        </Link>
-      </div>
+     <NavLink /> 
 
       
       <div className="flex items-center justify-center space-x-6">
         
-        <div className="bg-gray-200 flex items-center justify-center space-x-2 rounded-xl">
+        <div className="bg-gray-200 border-sky-200 border-2 flex items-center justify-center space-x-2 rounded-xl">
         
         <div className="rounded-full overflow-hidden w-48 h-48 mr-5 ml-5 mt-5 mb-5 bg-green-300 hover:bg-sky-600 shadow-xl outline-solid">
           <Image
-            src={mypic1}
+           
+           src="/mypic00.png"
+
             layout="intrinsic"
             alt="my picture 1"
             width={300}

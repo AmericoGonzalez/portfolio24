@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Link from "next/link";
-import mypic1 from "/public/mypic01.png";
+import NavLink from "@/components/ui/nav-links";
+
 import Footer from "@/components/ui/footer";
 
 
@@ -10,24 +10,11 @@ export default function AboutMePage() {
   return (
   <div className="text-center"> 
 
-         <div className="flex justify-center space-x-6 mb-16 mt-2 p-6 md:shadow-md">
-        <Link href="/">
-          <span className="text-xl cursor-pointer hover:text-sky-600">Home</span>
-        </Link>
-        <Link href="/resume/my-resume">
-          <span className="text-xl cursor-pointer hover:text-sky-600">Resume</span>
-        </Link>
-        <Link href="/projects/my-projects">
-          <span className="text-xl cursor-pointer hover:text-sky-600">Projects</span>
-        </Link>
-        <Link href="/aboutme/about-me">
-          <span className="text-xl cursor- hover:text-sky-600">About</span>
-        </Link>
-      </div>
+    <NavLink /> 
 
     <div className="flex">
       
-      <div className="bg-gray-100 p-8 ml-16 rounded-xl w-2/3">
+      <div className="bg-gray-100 p-8 border-sky-200 border-2 ml-16 rounded-xl w-2/3">
         <h1 className="font-bold">Beyond Work</h1>
         <br/>
         <p>Chilean Canadian I speak Spanish and English</p>
@@ -41,9 +28,9 @@ export default function AboutMePage() {
         culture, new technology, and visual arts.</p>
       </div>
 
-      <div className="w-1/3 mr-16 ml-4">
+      <div className="w-1/3 mr-16 ml-4 shadow-xl">
         <Image
-            src={mypic1}
+            src="/mypic01.png"
             layout="responsive"
             alt="my picture 1"
             width={50}
