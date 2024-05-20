@@ -2,3 +2,8 @@
   @tailwind components;
   @tailwind utilities;
 
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #E12427;
+  background-image: radial-gradient(circle, #E12427, #000000);
+}

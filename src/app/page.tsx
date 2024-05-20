@@ -5,8 +5,11 @@ import Image from "next/image";
 
 import NavLink from "@/components/ui/nav-links";
 import { Button } from "@/components/ui/button";
-import Footer from "@/components/ui/footer";
+import FooterTwo from "@/components/ui/footer";
 import Link from "next/link";
+import { anton } from "@/components/ui/fonts";
+
+
 
 
 
@@ -22,9 +25,9 @@ export default async function HomePage() {
       
       <div className="flex items-center justify-center space-x-6">
         
-        <div className="bg-gray-200 border-sky-200 border-2 flex items-center justify-center space-x-2 rounded-xl">
+        <div className="bg-yellow-500 border-black border-2 flex items-center justify-center space-x-2 rounded-xl">
         
-        <div className="rounded-full overflow-hidden w-48 h-48 mr-5 ml-5 mt-5 mb-5 bg-green-300 hover:bg-sky-600 shadow-xl outline-solid">
+        <div className="rounded-full overflow-hidden w-48 h-48 mr-5 ml-5 mt-5 mb-5 bg-white shadow-xl outline-solid">
           <Image
            
            src="/mypic00.png"
@@ -37,9 +40,9 @@ export default async function HomePage() {
           /> 
         </div>
         
-          <div className="flex flex-col items-center justify-center pl-3 pr-7 mr-10">
+          <div className="flex flex-col items-center justify-center pl-1 pr-8 mr-10">
           <div><p className="text-xl">Hello I am</p></div>
-          <div><p className="text-2xl font-bold text-sky-600">A. Gonzalez</p></div>
+          <div><p className={`${anton.className} text-4xl text-white`}>A. GONZALEZ</p></div>
           <div><p className="text-xl">Web Developer</p></div>
         
           </div>  
@@ -49,10 +52,23 @@ export default async function HomePage() {
         
         <br/>
         <Link href="/contact/contact-me">
-          <Button className="mt-10 text-xl border-green-400 border-2 bg-green-300 text-sky-600 shadow-xl rounded hover:bg-gray-200">Contact me</Button>
+          <Button className={`${anton.className} mt-6 text-xl border-red-400 border-2 bg-yellow-500 text-red-600 shadow-xl rounded hover:bg-gray-200`}>Contact me</Button>
         </Link> 
+
+        <div className="flex justify-center mt-5"> 
+        <div className="flex items-center justify-center rounded-full w-48 h-48 mr-5 ml-5 mt-5 mb-5 bg-transparent outline-solid">
+          <Image
+            src="/arcreactor.png"
+            layout="intrinsic"
+            alt="arc reactor"
+            width={150}
+            height={300}
+            
+          />
+        </div>
+        </div>
       
-        <Footer />    
+        <FooterTwo />    
 
         
         

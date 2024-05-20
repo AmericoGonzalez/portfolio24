@@ -3,6 +3,7 @@
 import { usePathname } from 'next/navigation';
 import clsx from 'clsx';
 import Link from "next/link";
+import { anton } from "@/components/ui/fonts";
 
 const links = [
     { name: 'Home', href: '/' },
@@ -14,15 +15,15 @@ const links = [
 export default function NavLink() {
     const pathname = usePathname();
     return (
-        <div className="flex justify-center space-x-6 mb-16 mt-2 p-6 md:shadow-md">
+        <div className={`${anton.className} flex justify-center space-x-6 mb-16 pt-10 p-6 bg-yellow-500 bg-gradient-to-t from-yellow-500 to-black md:shadow-md`}>
             {links.map((link) => (
                 <Link
                     key={link.name}
                     href={link.href}
                     className={clsx(
-                        'bg-gray-50 p-3 text-xl font-medium hover:bg-sky-100 hover:text-blue-600 md:p-2 md:px-3 rounded-md',
+                        'bg-transparent p-3 text-xl font-medium hover:text-red-600 md:p-2 md:px-3 rounded-xl',
                         {
-                            'bg-sky-100 text-blue-800': pathname === link.href,
+                            'bg-yellow-400 text-white': pathname === link.href,
                         },
                     )}
                 >

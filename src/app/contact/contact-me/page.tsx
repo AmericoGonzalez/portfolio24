@@ -12,10 +12,10 @@ import NavLink from "@/components/ui/nav-links";
 export default function ContactForm() {
   const [state, handleSubmit] = useForm("myyrolyr");
   if (state.succeeded) {
-      return <div className="flex justify-center space-x-6 mb-16 mt-2 p-6 md:shadow-md">Thanks for Contacting me I will respond ASAP!
+      return <div className="flex justify-center space-x-6 mb-16 mt-2 p-6 md:shadow-md text-yellow-500">Thanks for Contacting me I will respond ASAP!
        <br/>
        <Link href="/">
-          <Button className="border-green-400 border-2 bg-green-300 text-sky-600 shadow-xl rounded">HOME</Button>
+          <Button className="border-black border-2 bg-yellow-500 text-red-600 shadow-xl rounded">HOME</Button>
         </Link>
       </div>;
     
@@ -27,9 +27,9 @@ export default function ContactForm() {
 <div>
       <NavLink /> 
 
-      <div className="max-w-md mx-auto p-6 bg-gray-100 border-sky-200 border-2 rounded-lg shadow-md">
+      <div className="max-w-md mx-auto p-6 bg-yellow-500 border-sky-200 border-2 rounded-xl shadow-md">
       <form action="https://formspree.io/f/myyrolyr" method="POST" onSubmit={handleSubmit}>
-        <label htmlFor="email" className="block text-gray-700 font-semibold mb-2">Email Address</label>
+        <label htmlFor="email" className="block text-gray-700 mb-2">Email Address</label>
         <input
           id="email"
           type="email" 
@@ -41,7 +41,7 @@ export default function ContactForm() {
           field="email"
           errors={state.errors}
         />
-        <label className="block text-gray-700 font-semibold mb-2">Message</label>
+        <label className="block text-gray-700 mb-2">Message</label>
         <textarea
           id="message"
           name="message"
