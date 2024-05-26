@@ -1,10 +1,11 @@
 "use client";
 
-import Link from 'next/link';
+
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import Footer from "@/components/ui/footer";
-import { Button } from "@/components/ui/button";
+
+import Image from "next/image";
 
 import NavLink from "@/components/ui/nav-links";
 
@@ -12,14 +13,36 @@ import NavLink from "@/components/ui/nav-links";
 export default function ContactForm() {
   const [state, handleSubmit] = useForm("myyrolyr");
   if (state.succeeded) {
-      return <div className="flex justify-center space-x-6 mb-16 mt-2 p-6 md:shadow-md text-yellow-500">Thanks for Contacting me I will respond ASAP!
-       <br/>
-       <Link href="/">
-          <Button className="border-black border-2 bg-yellow-500 text-red-600 shadow-xl rounded">HOME</Button>
-        </Link>
-      </div>;
+      return  (
+      
+    <div>
+      <NavLink />
+
+      <div className="flex justify-center items-center">
+        
+        <div className="ml-16 mr-4">
+        <Image
+            src="/ironman.png"
+            layout="responsive"
+            alt="my picture 1"
+            width={50}
+            height={100}
+            className="rounded-xl"
+            /> 
+        </div>
+
+        <br/>
+        <div className='bg-yellow-500 text-white text-xl p-6 rounded-xl'>
+        <p>Thank you!</p>
+        <p>I&rsquo;ll get back to you ASAP.</p>
+        </div>
+      </div>
+      
+      <Footer />  
     
-     
+    </div>
+    
+  )
   }
 
 

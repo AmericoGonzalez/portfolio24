@@ -1,5 +1,6 @@
+import { Exo } from 'next/font/google';
 import './globals.css';
-import { inter } from '@/components/ui/fonts';
+import { exo } from '@/components/ui/fonts';
 
 export default function RootLayout({
   children,
@@ -8,7 +9,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} antialiased`}>{children}</body>
+      <body className={`${exo.className} antialiased`}>{children}</body>
     </html>
   );
 }

@@ -17,7 +17,15 @@ const config = {
         "2xl": "1400px",
       },
     },
+
+
     extend: {
+
+      spacing: {
+        '120': '30rem', // Custom size (30rem = 480px)
+        '140': '35rem', // Another custom size if needed
+      },
+      
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -68,6 +76,7 @@ const config = {
           to: { height: "0" },
         },
       },
+      
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
@@ -76,5 +85,7 @@ const config = {
   },
   plugins: [require("tailwindcss-animate")],
 } satisfies Config
+
+
 
 export default config
