@@ -9,7 +9,7 @@ export default function ResumePage() {
     <div>
       <NavLink />
       
-      <div className="mx-10 mb-10 bg-yellow-500 p-6 md:p-8 rounded-xl">
+      <div className="ml-12 mr-12 mb-10 mt-8 bg-yellow-500 p-6 md:p-8 rounded-xl">
         <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 md:space-x-6">
           <h1 className="text-lg md:text-xl font-semibold underline">Summary of Resume</h1>
           
@@ -28,14 +28,14 @@ export default function ResumePage() {
         <br />
 
         <div className="flex flex-col md:flex-row">
-          <div className="md:w-1/2">
+          <div className="md:w-1/2 border-red-600 border-2 p-2 m-2">
             <h3 className="text-lg italic">Technical Skills</h3>
             <p>SQL, Business Analysis and System design, Microsoft Visio, HTML, CSS,
               Tailwind.css, JavaScript, React, Next.js, Node.js, GitHub, and Figma.
             </p>
           </div>
             
-          <div className="md:w-1/2 md:ml-2">
+          <div className="md:w-1/2 md:ml-2 border-red-600 border-2 p-2 m-2">
             <h3 className="text-lg italic">Soft Skills</h3>
             <p>Teamwork, problem solving, adaptability, time management, creativity.</p>
           </div>
@@ -43,6 +43,8 @@ export default function ResumePage() {
 
         <br />
 
+        <div className="flex flex-col md:flex-row">
+        <div className="md:w-1/2 border-red-600 border-2 p-2 m-2">
         <h2 className="text-lg font-semibold">Work Experience</h2>
         <br />
         <ul>
@@ -71,9 +73,10 @@ export default function ResumePage() {
             <p>Alain High School 2009-2012</p> 
           </li>
         </ul> 
-
+        </div>
         <br />
-
+        
+        <div className="md:w-1/2 border-red-600 border-2 p-2 m-2">
         <h2 className="text-lg font-semibold">Education</h2>
         <br />
         <ul>
@@ -91,8 +94,13 @@ export default function ResumePage() {
             <h3 className="text-lg">UMCE</h3>
             <p>History and Geography Bachelor Degree</p> 
             <br />
-          </li>
+        </li>
         </ul> 
+        </div>
+        </div>
+
+
+
       </div>  
 
       <FooterTwo />

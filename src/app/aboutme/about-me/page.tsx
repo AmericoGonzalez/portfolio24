@@ -9,7 +9,7 @@ export default function AboutMePage() {
   return (
     <div className="text-center mb-6">
       <NavLink />
-      <div className="flex flex-col md:flex-row items-center md:items-start p-4 md:p-8">
+      <div className="flex flex-col md:flex-row items-center md:items-start p-4 mb-4 md:p-8">
         <div className="w-full md:w-1/3 mb-4 md:mb-0 md:ml-16 md:mr-4 order-2 md:order-1">
           <Image
             src="/mypic01.png"
@@ -20,7 +20,7 @@ export default function AboutMePage() {
             className="rounded-xl"
           />
         </div>
-        <div className="bg-yellow-500 p-6 rounded-xl w-full md:w-2/3 order-1 md:order-2 md:mr-16">
+        <div className="bg-yellow-500 p-6 rounded-xl w-full md:w-2/3 order-1 md:order-2 md:mr-16 mb-4">
           <h1 className="text-2xl text-white">Beyond Work</h1>
           <br />
           <p>My name is Americo Gonzalez, a web developer with a passion for creating visually appealing, user-friendly, and responsive apps.</p>

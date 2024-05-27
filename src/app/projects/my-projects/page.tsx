@@ -24,7 +24,7 @@ export default function ProyectsPage() {
      
      <div className="flex justify-center items-center">
       <Carousel className="flex justify-center items-center">
-      <CarouselContent className="w-140 h-140 flex justify-center items-center">
+      <CarouselContent className="w-120 h-140 flex justify-center items-center mt-6">
             
 
             
@@ -59,7 +59,9 @@ export default function ProyectsPage() {
             
             <h1 className="text-2xl text-white">Dashboard of invoicessss</h1>
             <br />
-            <p>This is a simplified version of a financial dashboard from the course to learn Next.js.</p>
+            <p>This is a simplified version of a financial dashboard that I made following the course
+              Learn Next.js in the website of Next.js.
+            </p>
             <p>You can add, edit, and delete invoices in an accompanying DB provided for Vercel.</p>
             <p>The dashboard will update automatically. You will notice simulated slow data 
               created to apply loading skeletons.</p>

@@ -57,7 +57,7 @@ export default function NavLink() {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <div className={`${anton.className} bg-yellow-500 bg-gradient-to-t from-yellow-500 to-black mb-3`}>
+        <div className={`${anton.className} bg-yellow-500 bg-gradient-to-t from-yellow-500 to-black mb-10`}>
             <div className="flex justify-between items-center p-4 md:hidden">
                 <div className="text-xl font-bold">Menu</div>
                 <button
