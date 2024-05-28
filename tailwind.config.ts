@@ -23,9 +23,10 @@ const config = {
 
       spacing: {
         '120': '30rem', // Custom size (30rem = 480px)
-        '140': '35rem', // Another custom size if needed
+        '140': '35rem',
+        '160': '40rem', // Another custom size if needed
       },
-      
+
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

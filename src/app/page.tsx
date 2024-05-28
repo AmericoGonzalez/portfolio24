@@ -25,9 +25,9 @@ export default async function HomePage() {
       
       <div className="flex items-center justify-center space-x-6">
         
-        <div className="bg-yellow-500 border-red-900 mt-8 border-2 flex items-center justify-center space-x-2 rounded-xl shadow-xl shadow-red-900/40">
+        <div className="bg-yellow-500 border-red-900 mt-8 border-2 flex items-center justify-center space-x-2 rounded-bl-3xl rounded-tr-3xl shadow-xl shadow-red-900/40">
         
-          <div className="rounded-full overflow-hidden w-48 h-48 mr-5 ml-5 mt-5 mb-5 bg-white shadow-xl shadow-yellow-600/65 outline-solid">
+          <div className="rounded-full overflow-hidden w-52 h-52 mr-5 ml-5 mt-5 mb-5 bg-white shadow-xl shadow-yellow-600/65 outline-solid">
           <Image
            
             src="/mypic00.png"
