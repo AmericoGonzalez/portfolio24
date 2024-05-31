@@ -13,12 +13,12 @@ import { SiTypescript } from "react-icons/si";
             
             <div className="flex justify-center space-x-4 mb-2">
               <p>Made with:</p>
-              <FaReact size={30} title="React" />
-              <TbBrandNextjs size={30} title="Nextjs" />
-              <SiTypescript size={30} />
-              <SiTailwindcss size={30} title="Tailwind CSS" />
+              <FaReact size={25} title="React" />
+              <TbBrandNextjs size={25} title="Nextjs" />
+              <SiTypescript size={25} />
+              <SiTailwindcss size={25} title="Tailwind CSS" />
               
-              <SiVercel size={30} title="Vercel" />
+              <SiVercel size={25} title="Vercel" />
              
             </div>
           </footer>
