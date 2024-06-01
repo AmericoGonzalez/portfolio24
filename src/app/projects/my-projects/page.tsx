@@ -40,7 +40,7 @@ export default function ProyectsPage() {
           </CarouselItem>
 
           <CarouselItem>
-            <div className="bg-yellow-500 p-6 rounded-xl m-8 sm:m-8 sm:p-6 sm:w-auto">
+            <div className="bg-yellow-500 p-6 rounded-xl m-4 sm:m-8 sm:p-6 sm:w-auto">
             
             <h1 className="text-xl text-white sm:text-xl">Dashboard of invoices</h1>
             
@@ -70,7 +70,7 @@ export default function ProyectsPage() {
           </CarouselItem>
           
           <CarouselItem>
-          <div className="bg-yellow-500 p-6 rounded-xl m-8 sm:m-8 sm:p-6 sm:w-auto">
+          <div className="bg-yellow-500 p-6 rounded-xl m-4 sm:m-8 sm:p-6 sm:w-auto">
             
             <h1 className="text-xl text-white sm:text-xl">BC PNP Calculator</h1>
             
@@ -100,7 +100,7 @@ export default function ProyectsPage() {
           </CarouselItem>
 
           <CarouselItem>
-          <div className="bg-yellow-500 p-6 rounded-xl m-8 sm:m-8 sm:p-6 sm:w-auto">
+          <div className="bg-yellow-500 p-6 rounded-xl m-4 sm:m-8 sm:p-6 sm:w-auto">
             
             <h1 className="text-xl text-white sm:text-xl">This app</h1>
             
@@ -126,9 +126,10 @@ export default function ProyectsPage() {
          </Carousel>
          </div>
 
-          <div className="flex justify-center items-center mb-8">
+          <div className="flex justify-center items-center"> 
+
             <div className="flex items-center justify-center space-x-2 bg-yellow-500 
-            rounded-xl m-6 sm:m-8 sm:p-6 sm:w-auto">
+            rounded-xl sm:m-8 sm:p-6 sm:w-auto">
 
               <p>More school projects: </p>
               
@@ -136,7 +137,7 @@ export default function ProyectsPage() {
               <p>AmericoGonzalez</p>
               
               </div>
-          </div>
+          </div> 
 
 
 

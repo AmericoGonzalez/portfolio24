@@ -17,7 +17,6 @@ import { SiTypescript } from "react-icons/si";
               <TbBrandNextjs size={25} title="Nextjs" />
               <SiTypescript size={25} />
               <SiTailwindcss size={25} title="Tailwind CSS" />
-              
               <SiVercel size={25} title="Vercel" />
              
             </div>
