@@ -98,7 +98,7 @@ export default function NavLink() {
                         key={link.name}
                         href={link.href}
                         className={clsx(
-                            'p-6 hover:text-white',
+                            'p-4 hover:text-white',
                             {
                                 'bg-red-900 text-yellow-500': pathname === link.href,
                             },

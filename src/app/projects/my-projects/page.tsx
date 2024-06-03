@@ -79,7 +79,7 @@ export default function ProyectsPage() {
             
             <p>It was built with simple HTML CSS and Javascript</p>
             
-              <Link href="https://bc-pnp-calculator.onrender.com/mywebpage">
+              <Link href="https://bc-pnp-calculator.onrender">
               <div className="text-blue-600 hover:text-blue-800">
                 <p>Click here to see the app.</p>
               </div>
