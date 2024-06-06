@@ -15,11 +15,16 @@ import { SiTailwindcss } from "react-icons/si";
 import { SiVercel } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
 
+import { TextGenerateEffectDemo } from "@/app/textgen";
+
+
+
 
 
 
 
 export default async function HomePage() {
+
 
 
   return (
@@ -43,17 +48,18 @@ export default async function HomePage() {
             height={400}
           /> 
           </div>
-
-          <div className="flex flex-col items-center justify-center pl-1 pr-8 mr-10">
+        
+          <div className="flex flex-col items-center justify-center pl-1 pr-8 mr-10 words">
+          
           <div><p className="text-xl">Hello I am</p></div>
-          <div><p className={`${anton.className} text-4xl text-white`}>A. GONZALEZ</p></div>
+          <TextGenerateEffectDemo />
           <div><p className="text-xl">Junior Web Developer</p></div>
           </div>  
-        
+         
         </div>
         
       </div>
-
+        
         
         <br/>
         
@@ -92,6 +98,7 @@ export default async function HomePage() {
             
     </div>
      
+
   );
 }
 
