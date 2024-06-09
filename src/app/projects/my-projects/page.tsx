@@ -26,13 +26,13 @@ export default function ProyectsPage() {
      <div className="flex justify-center items-center mt-3">
 
       <Carousel className="flex justify-center items-center">
-      <CarouselContent className="w-120 h-160 flex justify-center items-center">
+      <CarouselContent className="flex justify-center items-center w-120 h-160">
             
-
+      
             
 
           <CarouselItem>
-            {/*I need to keep this item empty to make work the carousel well*/}
+            {/*I need to keep this item empty to make work the carousel well */}
           </CarouselItem>
 
           <CarouselItem>

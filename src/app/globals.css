@@ -6,6 +6,9 @@
     font-family: 'Roboto', sans-serif;
     background-color: #E12427;
     background-image: radial-gradient(circle, #E12427, #000000);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 
 
   }@keyframes fadeInOut {
@@ -17,10 +20,12 @@
     }
   }
   
+
   .fade-in-out {
     animation: fadeInOut 3s infinite;
   }
   
+
   .wrapper {
     
     width: 90%;
@@ -82,7 +87,7 @@
     animation-delay: calc(30s / 6 * (6 - 6) * -1);
   }
 
- 
+
 
 
 
